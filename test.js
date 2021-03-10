@@ -18,7 +18,7 @@ describe('ChallengeTemplate', () => {
     /**
      * TEST DESCRIPTION
      */
-    it('Test2: when bishop="H1" and pawn="H3" should return true', () => {
+    it('Test2: when bishop="H1" and pawn="H3" should return false', () => {
 
         let result = challengeFunction("H1", "H3")
         let expected = false
@@ -51,7 +51,7 @@ describe('ChallengeTemplate', () => {
     /**
      * TEST DESCRIPTION
      */
-    it('Test5: when bishop="D8" and pawn="G8" should return true', () => {
+    it('Test5: when bishop="D8" and pawn="G8" should return false', () => {
 
         let result = challengeFunction("D8", "G8")
         let expected = false
@@ -62,7 +62,7 @@ describe('ChallengeTemplate', () => {
     /**
      * TEST DESCRIPTION
      */
-    it('Test6: when bishop="C6" and pawn="H2" should return true', () => {
+    it('Test6: when bishop="C6" and pawn="H2" should return false', () => {
 
         let result = challengeFunction("C6", "H2")
         let expected = false
@@ -84,7 +84,7 @@ describe('ChallengeTemplate', () => {
     /**
      * TEST DESCRIPTION
      */
-    it('Test8: when bishop="A3" and pawn="H3" should return true', () => {
+    it('Test8: when bishop="A3" and pawn="H3" should return false', () => {
 
         let result = challengeFunction("A3", "H3")
         let expected = false
