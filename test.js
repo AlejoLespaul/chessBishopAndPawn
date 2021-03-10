@@ -40,9 +40,9 @@ describe('ChallengeTemplate', () => {
     /**
      * TEST DESCRIPTION
      */
-    it('Test4: when bishop="B2" and pawn="E4" should return true', () => {
+    it('Test4: when bishop="B2" and pawn="E5" should return true', () => {
 
-        let result = challengeFunction("B2", "E4")
+        let result = challengeFunction("B2", "E5")
         let expected = true
 
         assert.strictEqual(result,expected)
